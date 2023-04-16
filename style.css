@@ -1,0 +1,82 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  
+  /* English Styles */
+  body[lang="en"] main {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  
+  /* Arabic Styles */
+  body[lang="ar"] main {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: right;
+  }
+  
+  h1[dir="rtl"] {
+    margin-right: 20px;
+  }
+  
+  p[lang="ar"] {
+    direction: rtl;
+    text-align: right;
+  }
+  
+  /* Language select dropdown styles */
+  #languageSelect {
+    border: none;
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  #languageSelect option {
+    background-color: white;
+    color: black;
+  }
+  
